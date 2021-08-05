@@ -11,9 +11,12 @@ body {
   left: 0;
   right: 0;
   height: 40px;
-  background-color: grey;
+  background-color: whitesmoke;
   border-bottom: 3px solid black;
   z-index: 9999;
+  font-weight: bold;
+  padding-left: 25px;
+  line-height: 10px;
 }
 
 .container {
@@ -64,11 +67,11 @@ body {
 
 .hero {
   height: 650px;
-  background-image: url(images/motorcycle.png);
+  background-image: url(images/r1m.jpg);
   background-size: cover;
-  background-position: 0 -350px;
+  background-position: 0 -680px;
   border-bottom: 5px solid lightskyblue;
-  border-top: 5px solid salmon;
+  border-top: 5px solid black;
 }
 
 .main {
@@ -114,6 +117,7 @@ body {
   height: 70px;
   float: left;
   padding-right: 10px;
+  border-radius: 27%;
 }
 
 /* shorthand memberikan 3 values: ukuran font, line-height, jenis font */
